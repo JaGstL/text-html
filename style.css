@@ -1,0 +1,61 @@
+body {
+  /* семейство шрифртов */
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  /* цвет текста */
+  color: rgb(181, 234, 243);
+  text-align: center;
+}
+
+h6 {
+  /* размер текста */
+  font-size: 30px;
+  /* жирность текста */
+  font-weight: 400;
+}
+p {
+  /* высота строки */
+  line-height: 20px;
+  text-align: center;
+}
+span {
+  color: blue;
+}
+.red {
+  color: red;
+}
+.block1 {
+  /* цвет заднего фона */
+  background-color: aqua;
+  /* внутренний отступ со всех сторон(от границ элемента, до его контента */
+  padding: 20px;
+  /* внешний отступ со всех сторон(от границ элемента, до других элементов */
+  margin: 50px;
+  /* внутренняя рамка
+  1 - размер
+  2- тип
+  3 - цвет */
+  border: 2px solid red;
+}
+.block2 {
+  background-color: black;
+  color: white;
+  /* ели передаем 2 значения то
+  1 - отступ свержу и снизу
+  2 - отстп слева и справа*/
+  padding: 15px 40px;
+  margin: 0px 50px;
+  /* радиус скругления улгов */
+  border-radius: 40px;
+  text-align: right;
+}
+.block3 {
+  background-color: brown;
+  padding: 30px;
+  margin: 50px;
+  /* ограничивает ширину блока */
+  width: 100px;
+  /* выравнивание текста(center, left, right) */
+  text-align: center;
+}
